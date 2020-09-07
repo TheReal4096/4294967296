@@ -146,7 +146,7 @@ hr {
   margin-bottom: 30px; }
 
 .container {
-  width: 500px;
+  width: 742px;
   margin: 0 auto; }
 
 @-webkit-keyframes fade-in {
@@ -180,8 +180,8 @@ hr {
   -moz-user-select: none;
   background: #bbada0;
   
-  width: 500px;
-  height: 500px;
+  width: 742px;
+  height: 742px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
