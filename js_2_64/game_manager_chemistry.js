@@ -183,7 +183,7 @@ GameManager.prototype.move = function (direction) {
 
         // Only one merger per row traversal?
         if (next && next.value === tile.value && !next.mergedFrom) {
-          var multiply = Math.random() < 0.986 ? 1 : 2;
+          var multiply = 1;
           var merged = new Tile(ositions.next, tile.value + multiply);
           merged.mergedFrom = [tile, next];
 
