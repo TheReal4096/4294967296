@@ -331,6 +331,7 @@ hr {
   
   .tile .tile-inner {
     border-radius: 10px;
+    color: #f9f6f2;
     background: #57407C;
     text-align: center;
     font-weight: bold;
@@ -345,13 +346,10 @@ hr {
     The background color is the upper-left/
     lower-right diagonal color, while the 
     non-transparent colors in the background-image 
-    property are the lower-left/upper-right diagonal 
-    color. All of the non-transparent colors in the
-    background-image property must be the same in
-    order for the checkerboard pattern to work.
-    This checkerboard pattern is only for tile values
-    that are 10 digits long and above. Tiles smaller
-    than 2048 are animated (except for 1).
+    property are the lower-left/upper-right diagonal color. 
+    All of the non-transparent colors in the background-image property must be the same in order for the checkerboard pattern to work.
+    This checkerboard pattern is only for tile values that are 10 digits long and above (except for 1B). 
+    Tiles smaller than 2048 are animated (except for 1).
   */
   .tile.tile-Infinity .tile-inner {
     color: black;
@@ -701,6 +699,7 @@ hr {
   .tile.tile-1073741824 .tile-inner {
     color: #f9f6f2;
     background: #7f007f;
+    background-image: url('http://alexfink.github.io/dive/tileoverlays/sprite.png'); 
     background-image:
       -moz-linear-gradient(45deg, #990099 25%, transparent 25%),
       -moz-linear-gradient(-45deg, #990099 25%, transparent 25%),
@@ -714,7 +713,7 @@ hr {
 
     -moz-background-size:107px 107px;
     background-size:107px 107px;
-    -webkit-background-size:107px 107px; /* override value for shitty webkit */
+    -webkit-background-size:107px 107px; /* override value for that tileoverlay webkit */
     
     background-position:0 0, 53.5px 0, 53.5px -53.5px, 0px 53.5px;
     box-shadow: 0 0 30px 10px #7f007f, inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
